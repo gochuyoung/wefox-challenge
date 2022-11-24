@@ -1,0 +1,2 @@
+host-url: http://localhost:3000
+data-source: 'src/test/resources/inf_data.csv'
