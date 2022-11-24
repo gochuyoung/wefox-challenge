@@ -27,6 +27,7 @@ make test-exec
 ```
 
 The implemented test case is located in the `AccidentSpedictionSpec.groovy` file\
+Test is injecting data from the provided `.csv` file, iterates on each subset and then verifies the response from `/predictions/severity` endpoint\
 Project is divided into 5 sections: dtos, factories, services, utils and tests\
 Configuration parameters can be set in `/resources/config.yaml` file
 
